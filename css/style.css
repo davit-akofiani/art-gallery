@@ -19,6 +19,9 @@ body{
     line-height: 55px;
     text-transform: uppercase;
     color:  Black;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    
 }
 .text1{
     font-family: 'Outfit';
@@ -27,4 +30,81 @@ body{
     font-size: 18px;
     line-height: 28px;
     color: #444444;
+    margin-bottom: 32px;
 }
+/* button parametrs */
+button{
+    width: 204px;
+    height: 72px;
+    background-color: #151515;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 120px;
+
+}
+.button-icon{
+    display: flex;
+    align-items: flex-start;
+}
+/* start second section  */
+.second-section{
+    width: 343px;
+}
+.heading2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color:  Black;
+    margin-bottom: 32px;
+}
+
+/* last box */
+.last-box{
+    background-color: black;
+}
+.heading-3{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.text3{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+/* starting to ad grid */
+.all-thing{
+    display: grid;
+    grid-template-columns: 343px;
+    grid-template-rows: 1fr;
+}
+/* footer section */
+footer{
+    background-color: black;
+}
+.footer-tittle{
+    position: relative;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+
+}
+/* .footer-p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+} */
