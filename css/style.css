@@ -1,0 +1,30 @@
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+}
+.image-hero{
+   width: 100%; 
+}
+/* section first include hero photo heading and paragrap */
+.first-section{
+    
+    width: 343px;
+    
+}
+.heading-1{
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color:  Black;
+}
+.text1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+}
