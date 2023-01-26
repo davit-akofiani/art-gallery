@@ -1,6 +1,7 @@
 body{
     font-family: 'Big Shoulders Display', cursive;
     font-style: normal;
+    background-color: bisque;
 }
 .image-hero{
    width: 100%; 
@@ -66,6 +67,7 @@ button{
 /* last box */
 .last-box{
     background-color: black;
+    margin-bottom: 120px;
 }
 .heading-3{
     font-style: normal;
@@ -83,28 +85,39 @@ button{
     color: white;
 }
 
+
 /* starting to ad grid */
-.all-thing{
+.all-thing {
+    margin: 0 1rem ;
     display: grid;
+    gap: 1rem;
     grid-template-columns: 343px;
     grid-template-rows: 1fr;
 }
 /* footer section */
 footer{
-    background-color: black;
+    background-color: rgb(8, 8, 8);
+    width: 375px;
+    padding: 3rem 2rem ;
+    
 }
-.footer-tittle{
-    position: relative;
+.footer-title{
+    
     font-size: 30px;
     font-weight: 900;
     color: white;
+    
 
 }
-/* .footer-p{
+.footer-p{
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
     color: white;
-} */
+    margin: 2.3rem 0;
+}
+.twiter{
+    margin-right: 1.25rem;
+}
