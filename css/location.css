@@ -8,11 +8,17 @@
 }
 
 /* first section xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-.map-image{
+.map-mobile{
     position: absolute;
 }
+.map-tablet{
+    display: none;
+}
+.map-desktop{
+    display: none;
+}
 
-button{
+.button{
     width: 204px;
     height: 72px;
     background-color: #151515;
@@ -32,8 +38,8 @@ button{
 }
 .map{
     position: relative;
-    height: 560px;
-    /* top: -0.8rem; */
+    
+    
 }
 
 /* second secton xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
@@ -79,18 +85,13 @@ button{
 /* footer section   xxxxxxxxxxxxxxxxxxxxxxxxxx*/
 footer{
     background-color: rgba(213, 150, 108, 1);
-    width: 375px;
     padding: 3rem 2rem ;
     /* color: black; */
     
 }
 .footer-title{
-    
     font-size: 30px;
     font-weight: 900;
-    
-    
-
 }
 .footer-p{
     font-family: 'Outfit';
@@ -98,10 +99,31 @@ footer{
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
-    
     margin: 2.3rem 0;
 }
 .icon{
     margin-right: 1.25rem;
-    color: black;
+    color: rgba(21, 21, 21, 1);
+}
+/* starting tablet version wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
+@media screen and (min-width: 375px) {
+    .body{
+        display: grid;
+        grid-template-columns: 768px;
+        grid-template-rows: 600px 436px 216px;
+    }
+    /* map photo */
+    .map-mobile{
+        display: none;
+    }
+    .map-tablet{
+        display: inline;
+        position: absolute;
+    }
+    .button{
+        left: 2.5rem;
+    }
+    .image{
+        left: 2.5rem;
+    }
 }
