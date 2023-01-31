@@ -90,7 +90,7 @@ footer{
     
 }
 .footer-title{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 900;
 }
 .footer-p{
@@ -104,6 +104,9 @@ footer{
 .icon{
     margin-right: 1.25rem;
     color: rgba(21, 21, 21, 1);
+}
+svg path{
+    fill: black;
 }
 /* starting tablet version wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
 @media screen and (min-width: 375px) {
@@ -125,5 +128,76 @@ footer{
     }
     .image{
         left: 2.5rem;
+    }
+    /* second section xxxxxxxxxxxxxxxxxxx*/
+    .tittle{
+        display: inline-block;
+        position: absolute;
+        width: 223px;
+
+    }
+    .tittle2-div{
+        display: block;
+        width: 398px;
+    }
+    .second{
+        display: flex;
+        justify-content: space-between;
+        padding: 5.5rem 2.6rem 5rem 2.6rem;
+
+    }
+    /* footer section  */
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items:flex-start ;
+        padding: 3.5rem 2.6rem 3.5rem 2.6rem;
+    }
+    .footer-p{
+        width: 17rem;
+        margin: 0;
+    }
+    .footer-title{
+        width: 8rem;
+    }
+}
+/* starting desktop version  wwwwwwwwwwwwwwwwwwwwwwwwwwww */
+@media screen and (min-width: 768px) {
+    .body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 600px 548px 244px;
+
+    }
+    .map-tablet{
+        display: none;
+    }
+    .map-desktop{
+        display: inline;
+        width: 100%;
+    }
+    .image{
+        left: 156px;
+    }
+    .button{
+        left: 156px;
+    }
+    /* second section xxxxxxxxxxxxxxxxxxxxx */
+    .tittle{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .second{
+        padding: 6.5rem 10rem 7rem 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* footer section xxxxxxxxxxxxxxxxxxxxx */
+    .footer-p{
+        width: 430px;
+    }
+    .footer-title{
+        width: 10rem;
+        font-size: 32px;
     }
 }
