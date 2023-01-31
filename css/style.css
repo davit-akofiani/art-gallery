@@ -3,10 +3,14 @@ body{
     font-style: normal;
     background-color: bisque;
 }
-.image-hero{
-   width: 100%; 
-}
+
 /* section first include hero photo heading and paragrap */
+.tablet-hero{
+    display: none;
+}
+.desktop-hero{
+    display: none;
+}
 .first-section{
     
     width: 343px;
@@ -50,7 +54,7 @@ button{
     display: flex;
     align-items: flex-start;
 }
-/* start second section  */
+/* start second section  xxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .second-section{
     width: 343px;
 }
@@ -120,5 +124,27 @@ footer{
 }
 .twiter{
     margin-right: 1.25rem;
+    
+}
+/* starting tablet version wwwwwwwwwwwwwwwwwwwwwwwwww */
+@media screen and (min-width: 375px) {
+    /* first section   */
+    .mobile-hero{
+        display: none;
+    }
+    .tablet-hero{
+        display: block;
+        position: absolute;
+        margin-bottom: 120px;
+        
+        
+    }
+    .first-section{
+        position: relative;
+        left: 50%;
+        top: 30%;
+    }
+    /* all thing */
+    
     
 }
