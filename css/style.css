@@ -1,7 +1,7 @@
-body{
+.body{
     font-family: 'Big Shoulders Display', cursive;
     font-style: normal;
-    background-color: bisque;
+    background-color: white;
 }
 
 /* section first include hero photo heading and paragrap */
@@ -159,6 +159,9 @@ footer{
 }
 /* starting tablet version wwwwwwwwwwwwwwwwwwwwwwwwww */
 @media screen and (min-width: 375px) {
+    .body{
+        width: 53.3%;
+    }
     /* first section   */
     .mobile-hero{
         display: none;
@@ -182,10 +185,11 @@ footer{
     }
     /* sectioon  */
     .section1{
+        margin-top: 8rem;
         display: grid;
-        grid-template-columns: 768px;
-        grid-template-rows: 1fr;
-
+        gap: 0.7rem;
+        grid-template-columns: auto auto;
+        grid-template-rows: 3fr;
     }
     /* second section  */
     .second-section{
@@ -193,7 +197,7 @@ footer{
         justify-content: space-between;
         flex-direction: row-reverse;
         width: 100%;
-
+        grid-column: span 2;
     }
     /* picture section */
     .mobile-first-grid{
@@ -208,6 +212,7 @@ footer{
     }
     .tablet-second-grid{
         display: inline;
+        grid-row: 2 / span 2;
     }
     /* third picture */
     .mobile-third-grid{
@@ -215,7 +220,29 @@ footer{
     }
     .tablet-third-grid{
         display: inline;
+       
     }
-
+    .last-box{
+        height: 396px;
+        width: 280px;
+        
+        padding: 5.4rem 1.9rem 0 1.9rem;
+        
     
+        
+        
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .footer-p{
+        width: 281px;
+    }
+    .footer-title{
+        width: 110px;
+        font-size: 23px;
+    }
 }
