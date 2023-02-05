@@ -28,7 +28,8 @@
     margin-top: 32px;
     
 }
-.text1{
+.text1,
+.text11{
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 300;
@@ -186,6 +187,7 @@ footer{
     /* sectioon  */
     .section1{
         margin-top: 8rem;
+        padding: 0 2.6rem 0 2.6rem ;
         display: grid;
         gap: 0.7rem;
         grid-template-columns: auto auto;
@@ -245,4 +247,127 @@ footer{
         width: 110px;
         font-size: 23px;
     }
+    
+}
+@media screen and (min-width: 768px) {
+        .body{
+            width: 100%;
+
+        }
+        /* first section include hero picture and tittle */
+        .tablet-hero{
+            display: none;
+
+        }
+        .desktop-hero{
+            display: inline;
+        }
+        .hero{
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row-reverse;
+            position: absolute;
+        }
+        .div{
+            background-color: #151515;
+            width: 450px;
+            height: 799px;
+
+        }
+        .heading-1{
+            
+            top: -75px;
+            left: -195px;
+            font-size: 96px;
+            width: 512px;
+            height: 176px;
+            line-height: 88px;
+            font-weight: 900;
+            color:rgba(255, 255, 255, 1);
+            position: relative;
+        }
+        span{
+            color: black;
+        }
+        .text11, .button-icon{
+            left: 575px;
+            top: -290px;
+            position: relative;
+        }
+        .text11{
+            font-size: 22px;
+            width: 350px;
+            line-height: 32px;
+        }
+        /* starting second section */
+        .tablet-first-grid{
+            display: none;
+        }
+        .desktop-first-grid{
+            display: inline;
+        }
+        .section1{
+            margin-top: 10.4rem;
+            padding: 0 10.25rem 0 10.25rem;
+            width: 100%;
+            gap: 1.9rem;
+
+
+        }
+        .heading2{
+            width: 350px;
+            font-weight: 900;
+            font-size: 60px;
+            line-height: 60px;
+            text-transform: uppercase;
+
+        }
+        .text1{
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 32px;
+            width: 350px;
+        }
+        /* picture section */
+        .tablet-second-grid,
+        .tablet-third-grid{
+            display: none;
+        }
+        .desktop-third-grid{
+            display: inline;
+        }
+         .desktop-second-grid{
+            display: inline;
+            grid-row: 2 / span 2;
+        }
+        /* last box */
+        .last-box{
+            width: 445px;
+            height: 377px;
+        }
+        .heading-3{
+            font-size: 60px;
+            line-height: 60px;
+            margin-bottom: 2rem;
+
+        }
+        .text3{
+            font-size: 22px;
+            line-height: 32px;
+        }
+        /* footer  section */
+        footer{
+            padding: 5rem 10rem;
+        }
+        .footer-title{
+            font-size: 30px;
+            width: 159px;
+
+        }
+        .footer-p{
+            width: 430px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 28px;
+        }
 }
