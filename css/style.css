@@ -283,12 +283,15 @@ footer{
             height: 176px;
             line-height: 88px;
             font-weight: 900;
-            color:rgba(255, 255, 255, 1);
+            color: white;
+            mix-blend-mode: difference;
             position: relative;
+
+            
         }
-        span{
+        /* span{
             color: black;
-        }
+        } */
         .text11, .button-icon{
             left: 575px;
             top: -290px;
