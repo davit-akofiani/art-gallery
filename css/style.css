@@ -361,6 +361,7 @@ footer{
         /* footer  section */
         footer{
             padding: 5rem 10rem;
+            width: 100%;
         }
         .footer-title{
             font-size: 30px;
