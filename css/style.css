@@ -2,6 +2,7 @@
     font-family: 'Big Shoulders Display', cursive;
     font-style: normal;
     background-color: white;
+    width: 100%;
 }
 
 /* section first include hero photo heading and paragrap */
@@ -133,8 +134,9 @@ button{
 /* footer section */
 footer{
     background-color: rgb(8, 8, 8);
-    width: 375px;
+    
     padding: 3rem 2rem ;
+    width: 100%;
     
 }
 .footer-title{
@@ -161,7 +163,7 @@ footer{
 /* starting tablet version wwwwwwwwwwwwwwwwwwwwwwwwww */
 @media screen and (min-width: 375px) {
     .body{
-        width: 53.3%;
+        width: 100%;
     }
     /* first section   */
     .mobile-hero{
